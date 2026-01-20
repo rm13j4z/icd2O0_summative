@@ -1,4 +1,3 @@
-
 ```
                         .___.__                           ㅤ⠀⠀⢀⣤⣄  
 __  _  _____________  __| _/|  |   ____       _ __  _   _    ⢰⣿⣿⣿⣿⡆ ⣠⣶⣿⣶⡀
@@ -97,7 +96,7 @@ Displays text character-by-character in the terminal.
 -  `text`: string to display
 -  `speed`: delay between characters
 -  `de`: disables `newline` if True
-Used for typing animations.
+
 ---
 ### clear(animate: bool = False, dontuseLogo: bool = False)
 
@@ -177,6 +176,7 @@ Example output (visual)
 H U M O U R
 ```
 Literal (if word is humour)
+`"GREEN": \033[38;5;46m` in `ANSI_EFFECTS` dictonary.
 ```
 \033[38;5;46mH\033[0m \033[38;5;46mU\033[0m \033[38;5;46mM\033[0m \033[38;5;46mO\033[0m \033[38;5;46mU\033[0m \033[38;5;46mR\033[0m
 ```
