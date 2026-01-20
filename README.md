@@ -26,7 +26,7 @@ A terminal based word guessing game inspired by Wordle.
 pip install wordfreq
 ```
 ---
-# Yes I made this Mr Kwan,this is only the public repo, I have over 20 commits on the one where I tried to make a good readme file 😭
+# Yes I made this Mr Kwan, this is only the public repo, I have over 20 commits on the one where I tried to make a good readme file 😭
 ---
 # game_functions.py:
 
